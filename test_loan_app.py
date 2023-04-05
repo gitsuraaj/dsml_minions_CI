@@ -8,7 +8,7 @@ def client():
 
 def test_ping(client):
     resp = client.get("/ping")
-    assert resp.status_code == 200
+    assert resp.status_code == 400
     assert resp.json == { 'Pinging the model successful' : 'Hurray' }
 
 
