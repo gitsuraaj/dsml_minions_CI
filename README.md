@@ -1,2 +1,2 @@
-# dsml_minions_CI
+# docker_for_minions
  
